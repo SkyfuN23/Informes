@@ -1,0 +1,49 @@
+.contenedorInforme {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.formInforme {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 0.5;
+}
+
+.formInforme input,
+.formInforme textarea,
+.formInforme button {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+
+.formInforme input:focus,
+.formInforme textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.formInforme button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formInforme button:hover {
+    background-color: #0056b3;
+}
+
+.imagen {
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
