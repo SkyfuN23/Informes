@@ -9,17 +9,15 @@ function App() {
   const [pacientes, setPacientes] = useState([]);
 
   return (
-    <>
-      <body>
-        <h1 className="titulo">Informes RX</h1>
-        <TaskForm setPacientes={setPacientes} pacientes={pacientes} />
-        <div className="div-contenedor-listas">
-          <TablaNoInformados setPacientes={setPacientes} pacientes={pacientes} />
-          <TablaInformados setPacientes={setPacientes} pacientes={pacientes} />
-        </div>
-        <Informe />
-      </body>
-    </>
+    <div className="body">
+      <h1 className="titulo">Informes RX</h1>
+      <TaskForm setPacientes={setPacientes} pacientes={pacientes} />
+      <div className="div-contenedor-listas">
+        <TablaNoInformados setPacientes={setPacientes} pacientes={pacientes} />
+        <TablaInformados setPacientes={setPacientes} pacientes={pacientes} />
+      </div>
+      <Informe />
+    </div>
   );
 }
 
